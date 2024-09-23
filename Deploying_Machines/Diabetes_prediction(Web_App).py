@@ -9,7 +9,14 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open('Deploying_Machines/Diabetes_model.sav','rb'))
+try:
+    loaded_model = pickle.load(open(model_path, 'rb'))
+except FileNotFoundError:
+    st.error("Model file not found. Please check the file path.")
+    st.stop()
+except Exception as e:
+    st.error(f"An error occurred while loading the model: {e}")
+    st.stop()
 
 
 #creating a function 
