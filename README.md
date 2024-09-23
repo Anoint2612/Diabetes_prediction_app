@@ -1,6 +1,10 @@
 # Diabetes Prediction Web App
 
 This project is a **Diabetes Prediction Web Application** developed using **Python** and **Machine Learning**. The web app provides a simple interface where users can input health-related data and receive predictions about the likelihood of having diabetes.
+A working pic⬇️⬇️
+
+![App_Pic](https://github.com/user-attachments/assets/4d6228f8-299d-45b0-81fc-8d4ffed713b9)
+
 
 ## Features
 - **Interactive User Interface**: Built using **Streamlit**, allowing for a smooth and user-friendly experience.
