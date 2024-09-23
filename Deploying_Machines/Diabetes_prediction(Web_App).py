@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 try:
-    loaded_model = pickle.load(open(model_path, 'rb'))
+    loaded_model = pickle.load(open('Deploying_Machines/Diabetes_model.sav', 'rb'))
 except FileNotFoundError:
     st.error("Model file not found. Please check the file path.")
     st.stop()
