@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users/ankit/OneDrive/Desktop/Deploying_Machines/Diabetes_model.sav','rb'))
+loaded_model = pickle.load(open('Deploying_Machines/Diabetes_model.sav','rb'))
 
 
 #creating a function 
